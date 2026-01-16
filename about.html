@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>camplus | About Us</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="idex.html"><img src="Images/logo.png" alt="logo"></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa" onclick="hideMenu()">&#10006;</i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa" onclick="showMenu()">&#9776;</i>
+        </nav>
+
+        <h1>About Us</h1>
+    </section>
+
+    <!------- about us content ------->
+
+    <div class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Why You Should Choose Us</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis odit tempora accusantium molestias iure non iste, at quos ipsum. Eius, fuga in expedita quibusdam excepturi nam commodi id iste veniam, enim nihil? Animi consequuntur blanditiis provident. Provident hic consequuntur ducimus, natus maiores sapiente commodi totam suscipit, est voluptatibus harum nulla voluptatum? Fugit earum maxime natus necessitatibus ea id iure, explicabo quidem nulla facere distinctio. Facilis adipisci qui in iusto?</p>
+                <a href="" class="main-btn red-btn">Read More</a>
+            </div>
+            <div class="about-col">
+                <img src="Images/about.jpg" alt="">
+            </div>
+        </div>
+        <img src="Images/shadow.png">
+    </div>
+    
+    <div class="about-us" id="sub-article">
+        <div class="row">
+            <div class="about-col">
+                <h1>Join Now and Start Joyfull Education in Camplus</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis odit tempora accusantium molestias iure non iste, at quos ipsum. Eius, fuga in expedita quibusdam excepturi nam commodi id iste veniam, enim nihil? Animi consequuntur blanditiis provident. Provident hic consequuntur ducimus, natus maiores sapiente commodi totam suscipit, est voluptatibus harum nulla voluptatum? Fugit earum maxime natus necessitatibus ea id iure, explicabo quidem nulla facere distinctio. Facilis adipisci qui in iusto?</p>
+                <a href="" class="main-btn red-btn">Read More</a>
+            </div>
+            <div class="about-col">
+                <img src="Images/about2.jpg" alt="">
+            </div>
+        </div>
+        <img src="Images/shadow.png">
+    </div>
+    
+
+    <!------- footer ------->
+    <section class="footer">
+        <H3>About Us</H3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsa tenetur necessitatibus <br>doloremque ex, accusamus reprehenderit officia voluptatibus.</p>
+        <div class="icon">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <p>made with &#9825; by Bhaska prasetya</p>
+        <hr>
+    </section>
+
+
+    <!------- javascript for togle menu ------->
+    <script>
+        var navLink = document.getElementById("navLink");
+
+        function showMenu(){
+            navLink.style.right ="0"
+        }
+        function hideMenu(){
+            navLink.style.right ="-300px"
+        }
+
+
+    </script>
+    
+</body>
+</html>
